@@ -11,7 +11,6 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  font-size: 15px;
   justify-content: center;
 }
 
@@ -36,11 +35,13 @@ main {
     padding: 22px 10px;
 }
 
-.text h2 {
+.text h1 {
     color: hsl(218, 44%, 22%);
     padding-bottom: 15px;
+    font-size: 1.4rem;
 }
 
 .text p {
     color: hsl(220, 15%, 55%);
+    font-size: 1rem;
 }
